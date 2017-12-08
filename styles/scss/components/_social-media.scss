@@ -1,0 +1,49 @@
+.social-icons{
+  padding: 5px 10px;
+  display: block;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid $media-icon-color;
+  color: $media-icon-color;
+  @include border-radius(2px);
+  &:before{
+    font-family: FontAwesome;
+    font-size: 1.2rem;
+  }
+  &:hover{
+    background-color: $hover-bg;
+    color: $light-text;
+    text-decoration: none;
+    border: 1px solid $hover-bg;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  &-footer{
+    border: 2px solid $light-text;
+    color: $light-text;
+    &:hover{
+      border: 2px solid $hover-bg;
+    }
+  }
+  &-facebook{
+    &:before{
+      content: "\f09a";
+      padding: 0 4px;
+    }
+  }
+  &-twitter{
+    &:before{
+      content: "\f099";
+    }
+  }
+  &-linkedin{
+    &:before{
+      content: "\f0e1";
+    }
+  }
+}

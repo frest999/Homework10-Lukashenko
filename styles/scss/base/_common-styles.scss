@@ -1,0 +1,21 @@
+*{
+  outline: none!important;
+}
+p,span{
+  line-height: 1.8;
+}
+.content{
+  width: $content-width;
+  padding: 0 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hidden-text{
+  text-indent: -9999px;
+  position: absolute;
+}
+
+.active{
+  color: $hover-link!important;
+}

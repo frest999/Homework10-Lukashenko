@@ -1,0 +1,41 @@
+.buttons{
+  background-color: $btn-bg;
+  color: $light-text;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  border: none;
+  font-size: $btn-text-size;
+  font-family: $brand-family;
+  cursor: pointer;
+  @include border-radius(5px);
+  &:hover{
+    background-color: $btn-hover;
+  }
+  &-download{
+    padding: 20px 80px;
+  }
+}
+
+.burger-menu{
+  @include border-radius(50%);
+  background-color: $btn-bg;
+  border: none;
+  padding: 5px 10px;
+  display: none;
+  z-index: 9999;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  &:before{
+    font-family: FontAwesome;
+    content: "\f0c9";
+    font-size: 1.2rem;
+    color: $light-text;
+  }
+}
+
+.burger-cross{
+  &:before{
+    content: "\f00d";
+  }
+}

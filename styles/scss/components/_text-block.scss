@@ -1,0 +1,53 @@
+.text-block{
+  font-family: $brand-family;
+  line-height: 1.8;
+  &-jumbo{
+    font-size: $jumbo-text-size;
+    margin-bottom: 70px;
+    line-height: 1.5;
+  }
+  &-cards{
+    font-size: $text-cards;
+  }
+  &-footer{
+    font-size: $footer-text-size;
+    color: darken($light-text, 30%);
+    display: block;
+    text-align: center;
+  }
+  &-bottom{
+    color: darken($light-text, 50%);
+    font-weight: bold;
+    font-family: "Myriad sdasPro", sans-serif;
+    display: inline;
+    margin-right: 5px;
+  }
+  &-signup{
+    font-size: $quote-signup;
+  }
+  &-hover{
+    font-size: $works-hover-size;
+  }
+}
+
+.dark-text{
+  color: $dark-text;
+}
+.light-text{
+  color: $light-text;
+}
+
+.heart-icon{
+  &:after{
+    font-family: FontAwesome;
+    content: "\f004";
+    font-size: .875rem;
+    color: $heart-icon;
+    margin-left: 5px;
+  }
+}
+
+.quote-text{
+  font-family: $quote-family;
+  font-size: $quote-text-size;
+}

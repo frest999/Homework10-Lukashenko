@@ -1,0 +1,28 @@
+@media (max-width: 1030px) {
+  .img-slide-block {
+    width: 100%;
+  }
+  .quote-block {
+    width: 100%;
+    height: 200px;
+  }
+  .quote-block-slider{
+    width: 100%;
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .quote-text{
+    font-size: $quote-text-size - .5rem;
+  }
+}
+
+@media (max-width: 630px){
+  .quote-text{
+    font-size: $quote-text-size - 1.1rem;
+  }
+  .img-slide-block{
+    height: 200px;
+  }
+}

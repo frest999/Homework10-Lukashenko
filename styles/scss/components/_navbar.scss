@@ -1,0 +1,22 @@
+.main-nav{
+  @include flexbox;
+  justify-content: space-between;
+  li{
+    margin-right: 60px;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $nav-text-color;
+      font-size: $nav-text-size;
+      font-family: $nav-family;
+      &:hover{
+        text-decoration: none;
+        color: $light-text;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@media (max-width: 1030px) {
+  .main-nav{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+  }
+}
+
+@media (max-width: 870px) {
+  .title-header{
+    font-size: $header-title-size - .5rem;
+  }
+  .text-block-jumbo{
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .title-header{
+    font-size: $header-title-size - 1rem;
+  }
+  .text-block-jumbo{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  .title-header{
+    font-size: $header-title-size - 1.4rem;
+  }
+  .text-block-jumbo{
+    font-size: $jumbo-text-size - .5rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .title-header{
+    font-size: $header-title-size - 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .title-header{
+    font-size: $header-title-size - 2.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .title-header{
+    font-size: $header-title-size - 3rem;
+  }
+}

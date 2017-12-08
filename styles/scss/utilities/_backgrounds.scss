@@ -1,0 +1,14 @@
+.main-header-bg{
+  @include background(linear-gradient(rgba(43, 46, 74, .95) 100%, rgba(0, 0, 0, 0) 100%),
+          url("../../img/main-header.png") no-repeat 50% 0);
+  height: 100vh;
+  background-size: cover;
+}
+
+.top-footer{
+  background-color: $top-footer-bg;
+}
+
+.bottom-footer{
+  background-color: $bottom-footer-bg;
+}

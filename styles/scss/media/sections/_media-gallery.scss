@@ -1,0 +1,22 @@
+@media (max-width: 770px) {
+  .gallery-block{
+    li {
+      width: 49.8%;
+    }
+  }
+}
+@media (max-width: 500px){
+  .gallery-block{
+    li {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+  .gallery-block{
+    li {
+      height: 300px;
+    }
+  }
+}

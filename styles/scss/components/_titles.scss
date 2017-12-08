@@ -1,0 +1,37 @@
+.title{
+  font-family: $brand-family;
+  text-transform: uppercase;
+  font-weight: bold;
+  &-header{
+    font-size: $header-title-size;
+    color: $light-text;
+    font-family: $jumbo-title-family;
+  }
+  &-adventage{
+    font-size: .875rem;
+  }
+  &-names{
+    font-size: $names-card-size;
+    text-transform: none;
+  }
+  &-post{
+    font-size: $post-size;
+    color: $people-post-color;
+    margin-bottom: 30px;
+    display: block;
+  }
+  &-section{
+    font-size: $section-title-size;
+    font-weight: lighter;
+    text-transform: none;
+  }
+  &-subtitle{
+    font-size: $post-size;
+  }
+  &-works-hover{
+    font-size: $works-hover-size;
+  }
+  &-footer{
+    font-size: $footer-title-size;
+  }
+}
